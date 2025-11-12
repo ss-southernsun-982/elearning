@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_slide_slide_form_inherit_namtn_scorm" model="ir.ui.view">
+    <field name="name">slide.slide.view.form.inherit.ntf.scorm</field>
+    <field name="model">slide.slide</field>
+    <field name="inherit_id" ref="website_slides.view_slide_slide_form" />
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='slide_category']" position="after">
+        <field name="scorm_sco_identifier" />
+        <field name="scorm_launch_url" />
+        <field name="embed_url" groups="base.group_system" />
+        <field name="slide_type" groups="base.group_system" />
+      </xpath>
+    </field>
+  </record>
+
+</odoo>

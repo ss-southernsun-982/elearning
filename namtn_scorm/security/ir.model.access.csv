@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_slide_scorm_wizard_manager,slide_scorm_wizard_manager,model_slide_scorm_wizard,base.group_system,1,1,1,1
+access_slide_scorm_wizard_user,slide_scorm_wizard_user,model_slide_scorm_wizard,base.group_system,1,1,1,1
+access_slide_session_info_manager,slide_session_info_manager,model_slide_session_info,base.group_system,1,1,1,1
+access_slide_session_info_user,slide_session_info_user,model_slide_session_info,base.group_user,1,1,1,0
+access_slide_session_info_public,slide_session_info_public,model_slide_session_info,,1,1,1,0
+
