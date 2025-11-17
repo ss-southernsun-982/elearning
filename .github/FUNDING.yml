@@ -10,10 +10,5 @@ liberapay:
 issuehunt: 
 lfx_crowdfunding: 
 polar: 
-buy_me_a_coffee: buymeacoffee.com/southernsun
+# buy_me_a_coffee: buymeacoffee.com/southernsun
 thanks_dev: 
-
-# Dùng `custom` để thêm PayPal + MoMo
-custom:
-  - 'https://paypal.me/yourname'                     # ← thay bằng PayPal.Me link của bạn
-  - 'https://yourdomain.com/sponsor'                 # ← (tùy chọn) trang web riêng hướng dẫn MoMo/PayPal
